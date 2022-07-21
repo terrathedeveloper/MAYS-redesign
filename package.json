@@ -1,0 +1,23 @@
+{
+  "name": "mays-redesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch ./assets/scss -o ./assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrathedeveloper/MAYS-redesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terrathedeveloper/MAYS-redesign/issues"
+  },
+  "homepage": "https://github.com/terrathedeveloper/MAYS-redesign#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
