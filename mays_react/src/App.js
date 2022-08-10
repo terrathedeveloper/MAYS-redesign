@@ -3,6 +3,19 @@ import './App.css';
 
 function App() {
   return (
+    // preloader
+    // header
+    // slider
+    // services
+    // about
+    // volunteer
+    // causes
+    // testimonials
+    // events
+    // volunteer2
+    // footer
+    // gototop
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
