@@ -1,8 +1,12 @@
 import React from 'react';
 
 const Slider = () => {
+    const backgroundStyle = {
+        backgroundImage: 'url(assets/images/playingkids.jpg)',
+    }
+
   return (
-    <section className="slider_area slider_area_3 bg_cover" style="background-image: url(assets/images/playingkids.jpg)">
+    <section className="slider_area slider_area_3 bg_cover" style={ backgroundStyle }>
         <div className="slider-active_3">
             <div className="single_slider_3 d-flex align-items-center">
                 <div className="container">

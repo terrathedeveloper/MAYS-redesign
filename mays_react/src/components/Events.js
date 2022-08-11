@@ -1,9 +1,16 @@
 import React from "react";
 
 const Events = () => {
+    const eventArea2Style = {
+        backgroundImage: 'url(assets/images/gray-bg.jpg)',
+    }
+    const eventShape1Style = {
+        backgroundImage: 'url(assets/images/shape/shape-1.png)',
+    }
+
   return (
-    <section className="event_area_2 pt-130 pb-130 bg_cover" style="background-image: url(assets/images/gray-bg.jpg)">
-        <div className="event_shape_1" style="background-image: url(assets/images/shape/shape-1.png)"></div>
+    <section className="event_area_2 pt-130 pb-130 bg_cover" style={ eventArea2Style }>
+        <div className="event_shape_1" style={ eventShape1Style }></div>
         <div className="container">
             <div className="row">
                     <div className="col-lg-12">
@@ -79,7 +86,7 @@ const Events = () => {
         </div> 
         {/* <!-- container --> */}
 
-        <div className="event_shape_2" style="background-image: url(assets/images/shape/shape-1.png)"></div>
+        <div className="event_shape_2" style={ eventShape1Style }></div>
     </section>
   )
 }

@@ -1,9 +1,19 @@
 import React from 'react';
 
 const Services = () => {
+    const servicesArea2Style = {
+        backgroundImage: "url(assets/images/gray-bg.jpg)",
+    }
+    const servicesShape1Style = {
+        backgroundImage: "url(assets/images/shape/shape-1.png)",
+    }
+    const servicesShape2Style = {
+        backgroundImage: "url(assets/images/shape/shape-2.png)",
+    }
+
   return (
-    <section className="services_area_2 pt-130 pb-130 bg_cover" style="background-image: url(assets/images/gray-bg.jpg)">
-        <div className="services_shape_1" style="background-image: url(assets/images/shape/shape-1.png)"></div>
+    <section className="services_area_2 pt-130 pb-130 bg_cover" style={ servicesArea2Style }>
+        <div className="services_shape_1" style={ servicesShape1Style }></div>
         <div className="container">
             <div className="row">
                 <div className="col-lg-12">
@@ -101,7 +111,7 @@ const Services = () => {
             {/* <!-- row --> */}
         </div> 
         {/* <!-- container --> */}
-        <div className="services_shape_2" style="background-image: url(assets/images/shape/shape-2.png)"></div>
+        <div className="services_shape_2" style={ servicesShape2Style }></div>
     </section>
   );
 }

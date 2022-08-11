@@ -1,8 +1,12 @@
 import React from "react";
 
 const VolunteerContact = () => {
+    const backgroundStyle = {
+        backgroundImage: "url(assets/images/omahanight.jpg)",
+    }
+
   return (
-    <section className="volunteer_form_area bg_cover" style="background-image: url(assets/images/omahanight.jpg)">
+    <section className="volunteer_form_area bg_cover" style={ backgroundStyle }>
         <div className="container">
             <div className="row justify-content-end">
                 <div className="col-lg-6">
