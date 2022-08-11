@@ -1,5 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import './styles/style.css';
+import './styles/default.css';
+import './styles/bootstrap.min.css';
+import './styles/font-awesome.min.css';
+import './styles/slick.css';
+import './styles/magnific-popup.css';
+import About from './components/About';
+import Causes from './components/Causes';
+import Events from './components/Events';
+import VolunteerContact from './components/VolunteerContact';
+import Team from './components/Team';
+import Footer from './components/Footer';
+import GoToTop from './components/GoToTop';
+import Preloader from './components/Preloader';
+import Header from './components/Header';
+import Slider from './components/Slider';
+import Services from './components/Services';
+import Testimonials from './components/Testimonials';
+
 
 function App() {
   return (
@@ -16,22 +35,21 @@ function App() {
     // footer
     // gototop
 
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {console.log("loaded")}
+      <Preloader />
+      <Header />
+      <Slider />
+      <Services />
+      <About />
+      <VolunteerContact />
+      <Causes />
+      <Testimonials />
+      <Events />
+      <Team />
+      <Footer />
+      <GoToTop />
+    </>
   );
 }
 

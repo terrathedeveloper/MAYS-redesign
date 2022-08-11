@@ -3,7 +3,7 @@ import React from 'react';
 const Preloader = () => {
   return (
     <div id="preloader">
-        <div class="preloader">
+        <div className="preloader">
             <span></span>
             <span></span>
         </div>
