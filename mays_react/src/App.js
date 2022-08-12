@@ -36,7 +36,6 @@ function App() {
     // gototop
 
     <>
-      {console.log("loaded")}
       <Preloader />
       <Header />
       <Slider />
