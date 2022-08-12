@@ -50,45 +50,45 @@ $(function() {
     //===== Slick Slider
 
     // function mainSlider() {
-    //     var BasicSlider = $('.slider-active');
+    //     // var BasicSlider = $('.slider-active');
     //     var BasicSlider2 = $('.slider-active_3');
         
-    //     BasicSlider.on('init', function (e, slick) {
-    //         var $firstAnimatingElements = $('.single_slider:first-child').find('[data-animation]');
-    //         doAnimations($firstAnimatingElements);
-    //     });
+    //     // BasicSlider.on('init', function (e, slick) {
+    //     //     var $firstAnimatingElements = $('.single_slider:first-child').find('[data-animation]');
+    //     //     doAnimations($firstAnimatingElements);
+    //     // });
     //     BasicSlider2.on('init', function (e, slick) {
     //         var $firstAnimatingElements = $('.single_slider_3:first-child').find('[data-animation]');
     //         doAnimations($firstAnimatingElements);
     //     });
         
-    //     BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
-    //         var $animatingElements = $('.single_slider[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-    //         doAnimations($animatingElements);
-    //     });
+    //     // BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
+    //     //     var $animatingElements = $('.single_slider[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+    //     //     doAnimations($animatingElements);
+    //     // });
     //     BasicSlider2.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
     //         var $animatingElements = $('.single_slider_3[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
     //         doAnimations($animatingElements);
     //     });
         
-    //     BasicSlider.slick({
-    //         autoplay: true,
-    //         autoplaySpeed: 13000,
-    //         dots: true,
-    //         fade: true,
-    //         arrows: true,
-    //         pauseOnHover: false,
-    //         prevArrow: '<span class="prev"><i class="fa fa-angle-left"></i></span>',
-    //         nextArrow: '<span class="next"><i class="fa fa-angle-right"></i></span>',
-    //         responsive: [
-    //             {
-    //                 breakpoint: 767,
-    //                 settings: {
-    //                     arrows: false
-    //                 }
-    //             }
-    //         ]
-    //     });
+    //     // BasicSlider.slick({
+    //     //     autoplay: true,
+    //     //     autoplaySpeed: 13000,
+    //     //     dots: true,
+    //     //     fade: true,
+    //     //     arrows: true,
+    //     //     pauseOnHover: false,
+    //     //     prevArrow: '<span class="prev"><i class="fa fa-angle-left"></i></span>',
+    //     //     nextArrow: '<span class="next"><i class="fa fa-angle-right"></i></span>',
+    //     //     responsive: [
+    //     //         {
+    //     //             breakpoint: 767,
+    //     //             settings: {
+    //     //                 arrows: false
+    //     //             }
+    //     //         }
+    //     //     ]
+    //     // });
     //     BasicSlider2.slick({
     //         autoplay: true,
     //         autoplaySpeed: 8000,
