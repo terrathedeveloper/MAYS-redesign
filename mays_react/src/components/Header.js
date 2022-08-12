@@ -1,6 +1,13 @@
 import React from 'react';
+import { useState } from 'react';
 
 const Header = () => {
+    const [navbarIsActive, setNavbarIsActive] = useState(false);
+
+    const toggleNavbarActive = () => {
+        setNavbarIsActive(!navbarIsActive);
+    }
+
   return (
     <header className="header_area">
         <div className="header_navbar header_navbar_3">
@@ -11,7 +18,7 @@ const Header = () => {
                     </a> 
                     {/* <!-- logo --> */}
 
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className={`navbar-toggler ${navbarIsActive ? "active" : ""}`} onClick={toggleNavbarActive} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="toggler-icon"></span>
                         <span className="toggler-icon"></span>
                         <span className="toggler-icon"></span>
@@ -21,21 +28,32 @@ const Header = () => {
                         <ul className="navbar-nav m-auto">
                             <li><a href="mayshomepage.html">Home</a></li>
                             <li>
-                                <a href="#">Pages <i className="fa fa-angle-down"></i></a>
+                                <a href="#">Pages 
+                                    <i className="fa fa-angle-down"></i>
+                                    <button className="sub-nav-toggler"> <span></span> </button>
+                                </a>
 
                                 <ul className="sub-menu">
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="volunteer.html">Volunteer</a></li>
                                 </ul>
                             </li>
-                            <li><a href="causes.html">Our Cuases <i className="fa fa-angle-down"></i></a>
+                            <li>
+                                <a href="causes.html">Our Cuases 
+                                    <i className="fa fa-angle-down"></i>
+                                    <button className="sub-nav-toggler"> <span></span> </button>
+                                </a>
                                 <ul className="sub-menu">
                                     <li><a href="causes/cause-details.html">Causes Details</a></li>
                                     <li><a href="causes/hoodtowoods-details.html">Hood to the Woods</a></li>
                                 </ul>
                             </li>
                             <li><a href="event.html">Events</a></li>
-                            <li><a href="blog/blog.html">Blog <i className="fa fa-angle-down"></i></a>
+                            <li>
+                                <a href="blog/blog.html">Blog 
+                                    <i className="fa fa-angle-down"></i>
+                                    <button className="sub-nav-toggler"> <span></span> </button>
+                                </a>
                                 <ul className="sub-menu">
                                     <li><a href="blog/blog.html">Blog</a></li>
                                     <li><a href="blog/blog-details.html">Blog Details</a></li>
