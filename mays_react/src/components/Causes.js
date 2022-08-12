@@ -7,7 +7,7 @@ const Causes = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="section_title text-center pb-30">
-                        <img src="assets/images/section_icon.png" alt="Icon" />
+                        <img src="images/section_icon.png" alt="Icon" />
                         <h3 className="title">We Need Your Help</h3>
                     </div> 
                     {/* <!-- section title --> */}
@@ -18,13 +18,13 @@ const Causes = () => {
                 <div className="col-lg-4 col-md-6">
                     <div className="single_causes causes_bg causes_color_1 mt-30">
                         <div className="causes_image">
-                            <img src="assets/images/campfire.jpg" alt="causes" />
+                            <img src="images/campfire.jpg" alt="causes" />
                             <ul className="causes_icon">
                                 <li><a href="#"><i className="fa fa-camera"></i></a></li>
                                 <li><a href="#"><i className="fa fa-video-camera"></i></a></li>
                             </ul>
                             <div className="causes_shape">
-                                <img src="assets/images/shape/shape-4.png" alt="shape" />
+                                <img src="images/shape/shape-4.png" alt="shape" />
                             </div>
                             <div className="causes_progress">
                                 <div className="bar_inner">
@@ -50,13 +50,13 @@ const Causes = () => {
                 <div className="col-lg-4 col-md-6">
                     <div className="single_causes causes_bg causes_color_2  mt-30">
                         <div className="causes_image">
-                            <img src="assets/images/writing.jpg" alt="causes" />
+                            <img src="images/writing.jpg" alt="causes" />
                             <ul className="causes_icon">
                                 <li><a href="#"><i className="fa fa-camera"></i></a></li>
                                 <li><a href="#"><i className="fa fa-video-camera"></i></a></li>
                             </ul>
                             <div className="causes_shape">
-                                <img src="assets/images/shape/shape-4.png" alt="shape" />
+                                <img src="images/shape/shape-4.png" alt="shape" />
                             </div>
                             <div className="causes_progress">
                                 <div className="bar_inner">
@@ -82,13 +82,13 @@ const Causes = () => {
                 <div className="col-lg-4 col-md-6">
                     <div className="single_causes causes_bg causes_color_3  mt-30">
                         <div className="causes_image">
-                            <img src="assets/images/teens.jpg" alt="causes" />
+                            <img src="images/teens.jpg" alt="causes" />
                             <ul className="causes_icon">
                                 <li><a href="#"><i className="fa fa-camera"></i></a></li>
                                 <li><a href="#"><i className="fa fa-video-camera"></i></a></li>
                             </ul>
                             <div className="causes_shape">
-                                <img src="assets/images/shape/shape-4.png" alt="shape" />
+                                <img src="images/shape/shape-4.png" alt="shape" />
                             </div>
                             <div className="causes_progress">
                                 <div className="bar_inner">

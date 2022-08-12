@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="col-lg-4 col-md-6 order-md-1 order-lg-1">
                         <div className="footer_about mt-50">
                             <a href="#">
-                                <img src="assets/images/logo-2.png" alt="Logo" />
+                                <img src="images/logo-2.png" alt="Logo" />
                             </a>
                             
                             <p>A fresh and modern theme for all charity, fundrising websites</p>

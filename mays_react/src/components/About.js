@@ -7,7 +7,7 @@ const About = () => {
         <div className="row align-items-center">
             <div className="col-lg-6">
                 <div className="about_video mt-50">
-                    <img src="assets/images/about.jpg" alt="about" />
+                    <img src="images/about.jpg" alt="about" />
                     <a href="https://www.youtube.com/watch?v=WKUjCCOcLFY" className="video-popup">
                         <i className="fa fa-play"></i>
                         <img src="assets/images/shape/shape-3.png" alt="shape" />
@@ -26,7 +26,7 @@ const About = () => {
                         <div className="col-md-6">
                             <div className="single_about_items_2 d-flex">
                                 <div className="items_icon">
-                                    <img src="assets/images/ab-icon-1.png" alt="icon" />
+                                    <img src="images/ab-icon-1.png" alt="icon" />
                                 </div>
                                 <div className="items_content media-body">
                                     <h5 className="item_title">20+ Partners</h5>
@@ -38,7 +38,7 @@ const About = () => {
                         <div className="col-md-6">
                             <div className="single_about_items_2 d-flex">
                                 <div className="items_icon">
-                                    <img src="assets/images/ab-icon-2.png" alt="icon" />
+                                    <img src="images/ab-icon-2.png" alt="icon" />
                                 </div>
                                 <div className="items_content media-body">
                                     <h5 className="item_title">100+ Graduates</h5>

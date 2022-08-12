@@ -2,7 +2,7 @@ import React from 'react';
 
 const Slider = () => {
     const backgroundStyle = {
-        backgroundImage: 'url(assets/images/playingkids.jpg)',
+        backgroundImage: 'url(./images/playingkids.jpg)',
     }
 
   return (

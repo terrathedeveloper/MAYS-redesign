@@ -5,17 +5,17 @@ const Testimonials = () => {
     <section className="testimonial_area">
         <div className="testimonial_image_wrapper_2">
             <div className="single_testimonial_image_2">
-                <img src="assets/images/tents.jpg" alt="testimonial" />
+                <img src="images/tents.jpg" alt="testimonial" />
             </div> 
             {/* <!-- single testimonial image --> */}
             
             <div className="single_testimonial_image_2">
-                <img src="assets/images/testimonial-2.jpg" alt="testimonial" />
+                <img src="images/testimonial-2.jpg" alt="testimonial" />
             </div> 
             {/* <!-- single testimonial image --> */}
             
             <div className="single_testimonial_image_2">
-                <img src="assets/images/testimonial-3.jpg" alt="testimonial" />
+                <img src="images/testimonial-3.jpg" alt="testimonial" />
             </div> 
             {/* <!-- single testimonial image --> */}
         </div> 

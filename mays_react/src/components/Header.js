@@ -7,7 +7,7 @@ const Header = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-lg ">
                     <a className="navbar-brand" href="index.html">
-                        <img src="assets/images/MAYS-Foundation-logo-dropshadow-1.png" alt="logo" height="65" />
+                        <img src="images/MAYS-Foundation-logo-dropshadow-1.png" alt="logo" height="65" />
                     </a> 
                     {/* <!-- logo --> */}
 

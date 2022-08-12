@@ -2,13 +2,13 @@ import React from 'react';
 
 const Services = () => {
     const servicesArea2Style = {
-        backgroundImage: "url(assets/images/gray-bg.jpg)",
+        backgroundImage: "url(images/gray-bg.jpg)",
     }
     const servicesShape1Style = {
-        backgroundImage: "url(assets/images/shape/shape-1.png)",
+        backgroundImage: "url(images/shape/shape-1.png)",
     }
     const servicesShape2Style = {
-        backgroundImage: "url(assets/images/shape/shape-2.png)",
+        backgroundImage: "url(images/shape/shape-2.png)",
     }
 
   return (
@@ -18,7 +18,7 @@ const Services = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="section_title text-center pb-30">
-                        <img src="assets/images/section_icon.png" alt="Icon" />
+                        <img src="images/section_icon.png" alt="Icon" />
                         <h3 className="title">Our services reshape youth</h3>
                     </div> 
                     {/* <!-- section title --> */}
@@ -29,7 +29,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_1">
                         <div className="services_image">
-                            <a href="#"><img src="assets/images/family.jpg" alt="help" /></a>
+                            <a href="#"><img src="images/family.jpg" alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Family Support</a></h4>
@@ -42,7 +42,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_2">
                         <div className="services_image">
-                            <a href="#"><img src="assets/images/afterschool.jpg" alt="help" /></a>
+                            <a href="#"><img src="images/afterschool.jpg" alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Afternoon Reporting</a></h4>
@@ -55,7 +55,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_3">
                         <div className="services_image">
-                            <a href="#"><img src="assets/images/gang.jpg" alt="help" /></a>
+                            <a href="#"><img src="images/gang.jpg" alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Gang Intervention</a></h4>
@@ -71,7 +71,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_1">
                         <div className="services_image">
-                            <a href="#"><img src="assets/images/parkteens.jpg" alt="help" /></a>
+                            <a href="#"><img src="images/parkteens.jpg" alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Day Reporting</a></h4>
@@ -84,7 +84,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_2">
                         <div className="services_image">
-                            <a href="#"><img src="assets/images/trashclean.jpg" alt="help" /></a>
+                            <a href="#"><img src="images/trashclean.jpg" alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Community Coaching</a></h4>
@@ -97,7 +97,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_3">
                         <div className="services_image">
-                            <a href="#"><img src="assets/images/tutoring.jpg" alt="help" /></a>
+                            <a href="#"><img src="images/tutoring.jpg" alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Evening Reporting</a></h4>

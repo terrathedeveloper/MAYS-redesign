@@ -7,7 +7,7 @@ const Team = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="section_title text-center pb-30">
-                        <img src="assets/images/section_icon.png" alt="Icon"/ >
+                        <img src="images/section_icon.png" alt="Icon"/ >
                         <h3 className="title">Our Team</h3>
                     </div> 
                     {/* <!-- section title --> */}
@@ -18,7 +18,7 @@ const Team = () => {
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_1">
                         <div className="volunteer_image">
-                            <img src="assets/images/rodney.jpg" alt="Volunteer" />
+                            <img src="images/rodney.jpg" alt="Volunteer" />
                             <div className="volunteer_social">
                                 <ul className="social">
                                     <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
@@ -41,7 +41,7 @@ const Team = () => {
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_2">
                         <div className="volunteer_image">
-                            <img src="assets/images/patrick.jpg" alt="Volunteer" />
+                            <img src="images/patrick.jpg" alt="Volunteer" />
                             <div className="volunteer_social">
                                 <ul className="social">
                                     <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
@@ -64,7 +64,7 @@ const Team = () => {
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_3">
                         <div className="volunteer_image">
-                            <img src="assets/images/tiffany.jpg" alt="Volunteer" />
+                            <img src="images/tiffany.jpg" alt="Volunteer" />
                             <div className="volunteer_social">
                                 <ul className="social">
                                     <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
@@ -87,7 +87,7 @@ const Team = () => {
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_4">
                         <div className="volunteer_image">
-                            <img src="assets/images/staff.jpg" alt="Volunteer" />
+                            <img src="images/staff.jpg" alt="Volunteer" />
                             <div className="volunteer_social">
                                 <ul className="social">
                                     <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
@@ -124,7 +124,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single_support d-flex align-items-center mt-30">
                             <div className="support_logo">
-                                <img src="assets/images/support_logo-1.jpg" alt="Logo" />
+                                <img src="images/support_logo-1.jpg" alt="Logo" />
                             </div>
                             <div className="support_content media-body">
                                 <h5 className="title">ARC LTD</h5>
@@ -135,7 +135,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single_support d-flex align-items-center justify-content-center mt-30">
                             <div className="support_logo">
-                                <img src="assets/images/support_logo-2.jpg" alt="Logo" />
+                                <img src="images/support_logo-2.jpg" alt="Logo" />
                             </div>
                             <div className="support_content media-body">
                                 <h5 className="title">Heart dols</h5>
@@ -147,7 +147,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single_support d-flex align-items-center justify-content-center mt-30">
                             <div className="support_logo">
-                                <img src="assets/images/support_logo-3.jpg" alt="Logo" />
+                                <img src="images/support_logo-3.jpg" alt="Logo" />
                             </div>
                             <div className="support_content media-body">
                                 <h5 className="title">Helcika</h5>
@@ -158,7 +158,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single_support d-flex align-items-center justify-content-center mt-30">
                             <div className="support_logo">
-                                <img src="assets/images/support_logo-4.jpg" alt="Logo" />
+                                <img src="images/support_logo-4.jpg" alt="Logo" />
                             </div>
                         </div> 
                         {/* <!-- support title --> */}
