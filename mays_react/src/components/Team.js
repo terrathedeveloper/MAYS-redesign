@@ -1,4 +1,5 @@
 import React from "react";
+import TeamMember from "./subcomponents/TeamMember";
 
 const Team = () => {
   return (
@@ -15,99 +16,54 @@ const Team = () => {
             </div> 
             {/* <!-- row --> */}
             <div className="row">
-                <div className="col-lg-3 col-sm-6">
-                    <div className="single_volunteer mt-30 volunteer_color_1">
-                        <div className="volunteer_image">
-                            <img src="images/rodney.jpg" alt="Volunteer" />
-                            <div className="volunteer_social">
-                                <ul className="social">
-                                    <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> 
-                            {/* <!-- volunteer social --> */}
-                        </div>
-                        <div className="volunteer_content d-flex align-items-center justify-content-center">
-                            <div className="content_wrapper">
-                                <h5 className="volunteer_name"><a href="#">Rodney Evans</a></h5>
-                                <p>CEO</p>
-                            </div>
-                        </div>
-                    </div> 
-                    {/* <!-- single volunteer --> */}
-                </div>
-                <div className="col-lg-3 col-sm-6">
-                    <div className="single_volunteer mt-30 volunteer_color_2">
-                        <div className="volunteer_image">
-                            <img src="images/patrick.jpg" alt="Volunteer" />
-                            <div className="volunteer_social">
-                                <ul className="social">
-                                    <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> 
-                            {/* <!-- volunteer social --> */}
-                        </div>
-                        <div className="volunteer_content d-flex align-items-center justify-content-center">
-                            <div className="content_wrapper">
-                                <h5 className="volunteer_name"><a href="#">Patrick Taylor</a></h5>
-                                <p>Director of Youth Dev</p>
-                            </div>
-                        </div>
-                    </div> 
-                    {/* <!-- single volunteer --> */}
-                </div>
-                <div className="col-lg-3 col-sm-6">
-                    <div className="single_volunteer mt-30 volunteer_color_3">
-                        <div className="volunteer_image">
-                            <img src="images/tiffany.jpg" alt="Volunteer" />
-                            <div className="volunteer_social">
-                                <ul className="social">
-                                    <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> 
-                            {/* <!-- volunteer social --> */}
-                        </div>
-                        <div className="volunteer_content d-flex align-items-center justify-content-center">
-                            <div className="content_wrapper">
-                                <h5 className="volunteer_name"><a href="#">Tiffany Duncan</a></h5>
-                                <p>Director of Education</p>
-                            </div>
-                        </div>
-                    </div> 
-                    {/* <!-- single volunteer --> */}
-                </div>
-                <div className="col-lg-3 col-sm-6">
-                    <div className="single_volunteer mt-30 volunteer_color_4">
-                        <div className="volunteer_image">
-                            <img src="images/staff.jpg" alt="Volunteer" />
-                            <div className="volunteer_social">
-                                <ul className="social">
-                                    <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> 
-                            {/* <!-- volunteer social --> */}
-                        </div>
-                        <div className="volunteer_content d-flex align-items-center justify-content-center">
-                            <div className="content_wrapper">
-                                <h5 className="volunteer_name"><a href="#">Staff</a></h5>
-                                <p>Youth Coordinators</p>
-                            </div>
-                        </div>
-                    </div> 
-                    {/* <!-- single volunteer --> */}
-                </div>
-                
+                <TeamMember 
+                    name="Rodney Evans"
+                    title="CEO"
+                    image="images/rodney.jpg"
+                    social={{
+                        facebook: "#",
+                        twitter: "#",
+                        linkedin: "#",
+                        instagram: "#"
+                    }}
+                    color_num="1"
+                />
+                <TeamMember 
+                    name="Patrick Taylor"
+                    title="Director of Youth Dev"
+                    image="images/patrick.jpg"
+                    social={{
+                        facebook: "#",
+                        twitter: "#",
+                        linkedin: "#",
+                        instagram: "#"
+                    }}
+                    color_num="2"
+                />
+                <TeamMember 
+                    name="Tiffany Duncan"
+                    title="Director of Education"
+                    image="images/tiffany.jpg"
+                    social={{
+                        facebook: "#",
+                        twitter: "#",
+                        linkedin: "#",
+                        instagram: "#"
+                    }}
+                    color_num="3"
+                />
+                <TeamMember 
+                    name="Staff"
+                    title="Support"
+                    image="images/staff.jpg"
+                    social={{
+                        facebook: "#",
+                        twitter: "#",
+                        linkedin: "#",
+                        instagram: "#"
+                    }}
+                    color_num="4"
+                />
             </div> 
             {/* <!-- row --> */}
             <div className="volunteer_support mt-125">
