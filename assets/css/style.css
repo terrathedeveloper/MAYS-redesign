@@ -1383,6 +1383,10 @@ p {
   bottom: -40px;
   left: 0; }
 
+  div.helplist{
+    font-size: 14px;
+  }
+
 .about_left {
   padding-right: 90px;
   position: relative; }
