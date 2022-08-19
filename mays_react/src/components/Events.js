@@ -1,4 +1,7 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 
 const Events = () => {
     const eventArea2Style = {
@@ -6,6 +9,16 @@ const Events = () => {
     }
     const eventShape1Style = {
         backgroundImage: 'url(images/shape/shape-1.png)',
+    }
+
+    const EventContentCarouselSettings = {
+        showThumbs: false,
+        showArrows: true,
+        showStatus: false,
+        showIndicators: true,
+        autoPlay: true,
+        infiniteLoop: true,
+        interval: 3500,
     }
 
   return (
@@ -25,6 +38,7 @@ const Events = () => {
             <div className="row no-gutters justify-content-center">
                 <div className="col-lg-10">
                     <div className="event_active">
+                    <Carousel {...EventContentCarouselSettings}>
                         <div className="single_event_2 d-flex flex-wrap event_color-1">
                             <div className="event_image">
                                 <img src="images/camping.jpg" alt="event" />
@@ -78,6 +92,7 @@ const Events = () => {
                             </div>
                         </div> 
                         {/* <!-- single event --> */}
+                    </Carousel>
                     </div> 
                     {/* <!-- event active --> */}
                 </div>
