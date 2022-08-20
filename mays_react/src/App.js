@@ -18,6 +18,8 @@ import Header from './components/Header';
 import Slider from './components/Slider';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
 
 
 function App() {
@@ -35,9 +37,20 @@ function App() {
     // footer
     // gototop
 
-    <>
+    <Router>
       <Preloader />
       <Header />
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
+  );
+}
+
+const HomePage = () => {
+  return (
+    <>
       <Slider />
       <Services />
       <About />
@@ -49,7 +62,8 @@ function App() {
       <Footer />
       <GoToTop />
     </>
-  );
+
+  )
 }
 
 export default App;
