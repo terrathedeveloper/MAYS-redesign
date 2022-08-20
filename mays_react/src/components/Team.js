@@ -1,4 +1,5 @@
 import React from "react";
+import DonorCard from "./subcomponents/DonorCard";
 import TeamMember from "./subcomponents/TeamMember";
 
 const Team = () => {
@@ -70,55 +71,29 @@ const Team = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="support_title text-center">
-                            <h4 className="title">Our trusted doners organizations who support us</h4>
+                            <h4 className="title">We trust these donors for their support</h4>
                         </div> 
                         {/* <!-- support title --> */}
                     </div>
                 </div> 
                 {/* <!-- row --> */}
                 <div className="row">
-                    <div className="col-lg-3 col-sm-6">
-                        <div className="single_support d-flex align-items-center mt-30">
-                            <div className="support_logo">
-                                <img src="images/support_logo-1.jpg" alt="Logo" />
-                            </div>
-                            <div className="support_content media-body">
-                                <h5 className="title">ARC LTD</h5>
-                            </div>
-                        </div> 
-                        {/* <!-- support title --> */}
-                    </div>
-                    <div className="col-lg-3 col-sm-6">
-                        <div className="single_support d-flex align-items-center justify-content-center mt-30">
-                            <div className="support_logo">
-                                <img src="images/support_logo-2.jpg" alt="Logo" />
-                            </div>
-                            <div className="support_content media-body">
-                                <h5 className="title">Heart dols</h5>
-                                <p>for your logo here</p>
-                            </div>
-                        </div> 
-                        {/* <!-- support title --> */}
-                    </div>
-                    <div className="col-lg-3 col-sm-6">
-                        <div className="single_support d-flex align-items-center justify-content-center mt-30">
-                            <div className="support_logo">
-                                <img src="images/support_logo-3.jpg" alt="Logo" />
-                            </div>
-                            <div className="support_content media-body">
-                                <h5 className="title">Helcika</h5>
-                            </div>
-                        </div> 
-                        {/* <!-- support title --> */}
-                    </div>
-                    <div className="col-lg-3 col-sm-6">
-                        <div className="single_support d-flex align-items-center justify-content-center mt-30">
-                            <div className="support_logo">
-                                <img src="images/support_logo-4.jpg" alt="Logo" />
-                            </div>
-                        </div> 
-                        {/* <!-- support title --> */}
-                    </div>
+                    <DonorCard 
+                        imagePath="images/support_logo-1.jpg"
+                        companyName="ARC LTD"
+                    />
+                    <DonorCard 
+                        imagePath="images/support_logo-2.jpg"
+                        companyName="Heart dols"
+                    />
+                    <DonorCard 
+                        imagePath="images/support_logo-3.jpg"
+                        companyName="Helcika"
+                    />
+                    <DonorCard 
+                        imagePath="images/support_logo-4.jpg"
+                    />
+                    
                 </div> 
                 {/* <!-- row --> */}
             </div> 
