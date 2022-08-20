@@ -297,8 +297,7 @@ p {
 
 /*===== Header Top =====*/
 .header_top {
-  background-color: #2b2a35;
-  padding-bottom: 15px; }
+  background-color: #2b2a35; }
 
 .header_top_wrapper .header_social {
   padding-top: 15px; }
@@ -390,6 +389,7 @@ p {
 .navbar {
   padding: 0 30px;
   background-color: #fff;
+  border-radius: 5px;
   position: relative; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar {

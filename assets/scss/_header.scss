@@ -146,6 +146,7 @@
 .navbar{
     padding: 0 30px;
     background-color: $white;
+    border-radius: 5px;
     position: relative;
     
     @media #{$md}{

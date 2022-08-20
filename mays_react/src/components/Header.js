@@ -10,7 +10,34 @@ const Header = () => {
 
   return (
     <header className="header_area">
-        <div className="header_navbar header_navbar_3">
+        <div className="header_top">
+            <div className="container">
+                <div className="header_top_wrapper d-md-flex justify-content-between">
+                    <div className="header_social text-center">
+                        <ul>
+                            <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div> 
+                    {/* <!-- header social --> */}
+
+                    <div className="header_info d-none d-md-block">
+                        <ul>
+                            <li><img src="images/call.png" alt="" /><a href="#">402.555.1234</a></li>
+                            <li><img src="images/mail.png" alt="" /><a href="#">info@maysomaha.org</a></li>
+                            <li><img src="images/heand.png" alt="" /><a href="#">Become a Volunteer</a></li>
+                        </ul>
+                    </div> 
+                    {/* <!-- header info --> */}
+                </div> 
+                {/* <!-- header top wrapper --> */}
+            </div> 
+            {/* <!-- container --> */}
+        </div> 
+        {/* <!-- header top --> */}
+
+        <div className="header_navbar">
             <div className="container">
                 <nav className="navbar navbar-expand-lg ">
                     <a className="navbar-brand" href="index.html">
@@ -26,40 +53,33 @@ const Header = () => {
 
                     <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                         <ul className="navbar-nav m-auto">
-                            <li><a href="mayshomepage.html">Home</a></li>
+                             <li>
+                                <a className="active" href="index.html">Home</a>
+                            </li>
                             <li>
-                                <a href="#">Pages 
-                                    <i className="fa fa-angle-down"></i>
-                                    <button className="sub-nav-toggler"> <span></span> </button>
-                                </a>
+                                <a href="#">About Us <i className="fa fa-angle-down"></i></a>
 
                                 <ul className="sub-menu">
-                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="about.html">About the Staff</a></li>
                                     <li><a href="volunteer.html">Volunteer</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="causes.html">Our Cuases 
-                                    <i className="fa fa-angle-down"></i>
-                                    <button className="sub-nav-toggler"> <span></span> </button>
-                                </a>
+                            <li><a href="causes.html">Services <i className="fa fa-angle-down"></i></a>
                                 <ul className="sub-menu">
-                                    <li><a href="causes/cause-details.html">Causes Details</a></li>
-                                    <li><a href="causes/hoodtowoods-details.html">Hood to the Woods</a></li>
+                                    <li><a href="gangintervention.html">Gang Intervention</a></li>
+                                    <li><a href="eveningreporting.html">Evening Reporting</a></li>
+                                    <li><a href="familysupport.html">Family Support Services</a></li>
+                                    <li><a href="heroes.html">HEROES Program</a></li>
                                 </ul>
                             </li>
-                            <li><a href="event.html">Events</a></li>
-                            <li>
-                                <a href="blog/blog.html">Blog 
-                                    <i className="fa fa-angle-down"></i>
-                                    <button className="sub-nav-toggler"> <span></span> </button>
-                                </a>
+                            <li><a href="htw.html">Hood to the Woods</a></li>
+                            <li><a href="blog.html">Gallery <i className="fa fa-angle-down"></i></a>
                                 <ul className="sub-menu">
-                                    <li><a href="blog/blog.html">Blog</a></li>
-                                    <li><a href="blog/blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog.html">Events</a></li>
+                                    <li><a href="blog-details.html">More Events</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="news.html">News</a></li>
                         </ul>
                     </div> 
                     {/* <!-- navbar collapse --> */}
