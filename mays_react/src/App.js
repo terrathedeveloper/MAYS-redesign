@@ -52,19 +52,6 @@ import trashclean from './assets/images/trashclean.jpeg';
 
 function App() {
   return (
-    // preloader
-    // header
-    // slider
-    // services
-    // about
-    // volunteer
-    // causes
-    // testimonials
-    // events
-    // volunteer2
-    // footer
-    // gototop
-
     <Router>
       <Preloader />
       <Header />
@@ -266,6 +253,20 @@ const HeroesPage = () => {
 }
 
 const HomePage = () => {
+
+    // preloader
+    // header
+    // slider
+    // services
+    // about
+    // volunteer
+    // causes
+    // testimonials
+    // events
+    // volunteer2
+    // footer
+    // gototop
+    
   return (
     <>
       <Slider />
