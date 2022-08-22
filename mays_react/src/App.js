@@ -57,17 +57,22 @@ function App() {
       <Header />
 
       <Routes>
+
         <Route path="services">
           <Route path="gang-intervention" element={<GangInterventionPage />} />
           <Route path="evening-reporting" element={<EveningReportingPage />} />
           <Route path="family-support" element={<FamilySupportPage />} />
           <Route path="heroes" element={<HeroesPage />} />
         </Route>
+
         <Route path="hood-to-woods" element={<Hood2WoodsPage />} />
+
         <Route path="about">
           <Route path="staff" element={<AboutPage />} />
         </Route>
+
         <Route path="/" element={<HomePage />} />
+        
       </Routes>
     </Router>
   );
@@ -266,7 +271,7 @@ const HomePage = () => {
     // volunteer2
     // footer
     // gototop
-    
+
   return (
     <>
       <Slider />
