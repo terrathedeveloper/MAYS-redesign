@@ -46,7 +46,12 @@ const PageContent = ({ content }) => {
               {/* first 2 paragraphs, if both exist */}
 
 
-              {content.blockquote && <Blockquote text={content.blockquote} />}
+              {content.blockquoteText && 
+                <Blockquote text={content.blockquoteText} />
+              }
+              {content.blockquoteHtml &&
+                <Blockquote innerHtml={content.blockquoteHtml} />
+              }
 
               {/* Insert sub images, up to 2 */}
               {content.img.sub &&
