@@ -1,5 +1,10 @@
 import React from "react";
 
+// images for causes
+import campfire from "../assets/images/campfire.jpg"
+import writing from "../assets/images/writing.jpg"
+import teens from "../assets/images/teens.jpg"
+
 const Causes = () => {
   return (
     <section className="causes_area pt-180 pb-130">
@@ -18,7 +23,7 @@ const Causes = () => {
                 <div className="col-lg-4 col-md-6">
                     <div className="single_causes causes_bg causes_color_1 mt-30">
                         <div className="causes_image">
-                            <img src="images/campfire.jpg" alt="causes" />
+                            <img src={campfire} alt="causes" />
                             <ul className="causes_icon">
                                 <li><a href="#"><i className="fa fa-camera"></i></a></li>
                                 <li><a href="#"><i className="fa fa-video-camera"></i></a></li>
@@ -50,7 +55,7 @@ const Causes = () => {
                 <div className="col-lg-4 col-md-6">
                     <div className="single_causes causes_bg causes_color_2  mt-30">
                         <div className="causes_image">
-                            <img src="images/writing.jpg" alt="causes" />
+                            <img src={writing} alt="causes" />
                             <ul className="causes_icon">
                                 <li><a href="#"><i className="fa fa-camera"></i></a></li>
                                 <li><a href="#"><i className="fa fa-video-camera"></i></a></li>
@@ -82,7 +87,7 @@ const Causes = () => {
                 <div className="col-lg-4 col-md-6">
                     <div className="single_causes causes_bg causes_color_3  mt-30">
                         <div className="causes_image">
-                            <img src="images/teens.jpg" alt="causes" />
+                            <img src={teens} alt="causes" />
                             <ul className="causes_icon">
                                 <li><a href="#"><i className="fa fa-camera"></i></a></li>
                                 <li><a href="#"><i className="fa fa-video-camera"></i></a></li>
