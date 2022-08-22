@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './styles/style.css';
 import './styles/default.css';
@@ -20,6 +19,10 @@ import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
+import PageBanner from './components/PageBanner';
+
+// images for use 
+import tents from './assets/images/tents.jpg';
 
 
 function App() {
@@ -43,9 +46,25 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="about">
+          <Route path="staff" element={<AboutPage />} />
+        </Route>
       </Routes>
     </Router>
   );
+}
+
+const AboutPage = () => {
+  return (
+    <>
+      <PageBanner 
+        title="From the Hood to the Woods"
+        img={tents}
+        slug="about"
+      />
+
+    </>
+  )
 }
 
 const HomePage = () => {
