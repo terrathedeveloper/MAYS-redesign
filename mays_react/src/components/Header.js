@@ -1,5 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
+import logo from '../assets/images/MAYS-Foundation-logo-dropshadow-1.png'
+import callIcon from '../assets/images/call.png'
+import handIcon from '../assets/images/heand.png'
+import mailIcon from '../assets/images/mail.png'
 
 const Header = () => {
     const [navbarIsActive, setNavbarIsActive] = useState(false);
@@ -24,9 +28,9 @@ const Header = () => {
 
                     <div className="header_info d-none d-md-block">
                         <ul>
-                            <li><img src="images/call.png" alt="" /><a href="#">402.555.1234</a></li>
-                            <li><img src="images/mail.png" alt="" /><a href="#">info@maysomaha.org</a></li>
-                            <li><img src="images/heand.png" alt="" /><a href="#">Become a Volunteer</a></li>
+                            <li><img src={callIcon} alt="" /><a href="#">402.555.1234</a></li>
+                            <li><img src={mailIcon} alt="" /><a href="#">info@maysomaha.org</a></li>
+                            <li><img src={handIcon} alt="" /><a href="#">Become a Volunteer</a></li>
                         </ul>
                     </div> 
                     {/* <!-- header info --> */}
@@ -41,7 +45,7 @@ const Header = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-lg ">
                     <a className="navbar-brand" href="index.html">
-                        <img src="images/MAYS-Foundation-logo-dropshadow-1.png" alt="logo" height="65" />
+                        <img src={logo} alt="logo" height="65" />
                     </a> 
                     {/* <!-- logo --> */}
 
