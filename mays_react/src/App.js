@@ -23,7 +23,13 @@ import PageBanner from './components/PageBanner';
 import PageContent from './components/PageContent';
 
 // images for use 
+
+// images for H2W page
 import tents from './assets/images/tents.jpg';
+import hood2woodsimage from "./assets/images/hoodtowoods-750x420.jpeg";
+import helicopter from "./assets/images/helicopter.jpg";
+import gangInt from "./assets/images/gangintervention.jpg";
+
 
 
 function App() {
@@ -46,25 +52,50 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="hood-to-woods" element={<Hood2WoodsPage />} />
         <Route path="about">
           <Route path="staff" element={<AboutPage />} />
         </Route>
+        <Route path="/" element={<HomePage />} />
       </Routes>
     </Router>
   );
 }
 
-const AboutPage = () => {
+
+const Hood2WoodsPage = () => {
+  const content = {
+    img: {
+      main: hood2woodsimage,
+      sub: [gangInt, helicopter]
+    },
+    title: "Widen the borders of possibility",
+    blockquote: "all reported having exited the program with a heightened sense of self-worth",
+    paragraphs: [
+      "Funded by a grant through the City of Omaha Historical Society, the MAYS Foundation recently hosted a pilot program camping trip to Buena Vista, Colorado, and Colorado Springs, Colorado, for ten inner-city youths. The program was designed to expose the youths to novel experiences, far outside their norms, to challenge their fears and to build self-confidence in their abilities. Guides pressed attendees to overcome fears through rock-climbing and zip-lining before a group trail-ride on horseback. For many program students, it was their first encounter with real horses! ",
+      "Once settled in Buena Vista, the campers spent two days white-water rafting and exploring the area around the Arkansas River. Building upon their previous experience climbing, the group rappelled down a mountain cliff, paired with partners from competing gang groups. Each team of campers was awarded points based on their ability to work cooperatively and their commitment to journaling about their experiences. The final goal of their involvement was a share of a prize pot, with the winning team receiving an additional $250 each.",
+      "The majority of campers had spent their entire lives within the city of Omaha, and all reported having exited the program with a heightened sense of self-worth after facing the challenges set forth. Our mission throughout the program was to break down personal barriers to communication and overcoming internal adversities that drive many youth to quit. It is often observed that youth isolate themselves and feel discouraged when tested. As a response, Hood to the Woods seeks to remove this negative impression and reset their confidence through encouraging pressure and detachment from self-sabotaging habits.",
+      "Only through providing opportunities for youths outside of their daily lives can they be instilled with the hope for their own futures. Daily experiences, reinforcing the small sizes of their worlds, can destroy a child's passion to explore and thereby grow. Be it due to financial difficulties at home or destructive environments around them, the Hood to the Woods program can combat weakened determination, tapping into a dormant part of their minds and reawakening critical thinking and imagination. This drive to see a world around them which does not yet exist is the fire which drives them toward life-long progress."
+    ]
+  }
+
+
   return (
     <>
       <PageBanner 
         title="From the Hood to the Woods"
         img={tents}
-        slug="about"
+        slug="hood-to-woods"
       />
-      <PageContent />
+      <PageContent content={content} />
 
+    </>
+  )
+}
+
+const AboutPage = () => {
+  return (
+    <>
     </>
   )
 }
