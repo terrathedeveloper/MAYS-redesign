@@ -1,5 +1,13 @@
 import React from 'react';
 
+// images for services
+import gang from "../assets/images/gang.jpg"
+import parkteens from "../assets/images/parkteens.jpg"
+import family from "../assets/images/family.jpg"
+import afterschool from "../assets/images/afterschool.jpg"
+import trashclean from "../assets/images/trashclean.jpg"
+import tutoring from "../assets/images/tutoring.jpg"
+
 const Services = () => {
     const servicesArea2Style = {
         backgroundImage: "url(images/gray-bg.jpg)",
@@ -29,7 +37,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_1">
                         <div className="services_image">
-                            <a href="#"><img src="images/family.jpg" alt="help" /></a>
+                            <a href="#"><img src={family} alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Family Support</a></h4>
@@ -42,7 +50,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_2">
                         <div className="services_image">
-                            <a href="#"><img src="images/afterschool.jpg" alt="help" /></a>
+                            <a href="#"><img src={afterschool} alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Afternoon Reporting</a></h4>
@@ -55,7 +63,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_3">
                         <div className="services_image">
-                            <a href="#"><img src="images/gang.jpg" alt="help" /></a>
+                            <a href="#"><img src={gang} alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Gang Intervention</a></h4>
@@ -71,7 +79,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_1">
                         <div className="services_image">
-                            <a href="#"><img src="images/parkteens.jpg" alt="help" /></a>
+                            <a href="#"><img src={parkteens} alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Day Reporting</a></h4>
@@ -84,7 +92,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_2">
                         <div className="services_image">
-                            <a href="#"><img src="images/trashclean.jpg" alt="help" /></a>
+                            <a href="#"><img src={trashclean} alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Community Coaching</a></h4>
@@ -97,7 +105,7 @@ const Services = () => {
                 <div className="col-lg-4 col-md-7">
                     <div className="single_services_2 text-center mt-30 services_2_color_3">
                         <div className="services_image">
-                            <a href="#"><img src="images/tutoring.jpg" alt="help" /></a>
+                            <a href="#"><img src={tutoring} alt="help" /></a>
                         </div>
                         <div className="services_content">
                             <h4 className="services_title"><a href="#">Evening Reporting</a></h4>

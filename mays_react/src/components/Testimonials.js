@@ -2,6 +2,9 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
+// images for testimonial carousel
+import tents from "../assets/images/tents.jpg";
+
 
 const Testimonials = () => {
 
@@ -27,7 +30,7 @@ const Testimonials = () => {
         <div className="testimonial_image_wrapper_2">
             <Carousel {...backgroundImgCarouselSettings}>
                 <div className="single_testimonial_image_2">
-                    <img src="images/tents.jpg" alt="testimonial" />
+                    <img src={tents} alt="testimonial" />
                 </div> 
                 {/* <!-- single testimonial image --> */}
                 

@@ -1,7 +1,7 @@
 import React from "react";
 
 const SocialsWidget = ({ context, social = null }) => {
-  const teamMemberClasses = "vounteer_social"
+  const teamMemberClasses = "volunteer_social"
   const pageClasses = "causes_details_share d-flex"
  
   let styling;
