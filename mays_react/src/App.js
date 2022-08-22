@@ -30,11 +30,24 @@ import hood2woodsimage from "./assets/images/hoodtowoods-750x420.jpeg";
 import helicopter from "./assets/images/helicopter.jpg";
 import gangInt from "./assets/images/gangintervention.jpg";
 
-//images for About Staff page
+// images for About Staff page
 import teamPic from './assets/images/team.jpeg';
 import about1 from './assets/images/about1.jpeg';
 import parkteens from './assets/images/parkteens.jpg';
 
+// images for Gang Intervention page
+import gang from "./assets/images/gang.jpg";
+
+// images for Evening Reporting page
+import mayskids from './assets/images/mayskids.jpeg';
+
+// images for Family Support page
+import mayskidschristmas from './assets/images/mayskidschristmas.jpeg';
+
+// images for heroes page
+import heroteens from './assets/images/heroteens.jpeg';
+import pillars from './assets/images/5pilars.png';
+import trashclean from './assets/images/trashclean.jpeg';
 
 
 function App() {
@@ -57,6 +70,12 @@ function App() {
       <Header />
 
       <Routes>
+        <Route path="services">
+          <Route path="gang-intervention" element={<GangInterventionPage />} />
+          <Route path="evening-reporting" element={<EveningReportingPage />} />
+          <Route path="family-support" element={<FamilySupportPage />} />
+          <Route path="heroes" element={<HeroesPage />} />
+        </Route>
         <Route path="hood-to-woods" element={<Hood2WoodsPage />} />
         <Route path="about">
           <Route path="staff" element={<AboutPage />} />
@@ -132,6 +151,114 @@ const AboutPage = () => {
         title="About Our Staff"
         img={teamPic}
         slug="about/staff"
+      />
+      <PageContent content={content} />
+    </>
+  )
+}
+
+const GangInterventionPage = () => {
+  const content = {
+    img: {
+      main: gang
+    },
+    title: "Taking a unique approach to gang intervention",
+    paragraphs: [
+      "Here at MAYS, we take a unique approach to Gang Intervention. We don’t feel that actual gangs are the problem….we feel the problem with gangs are the activities and the culture! If gangs were known for helping little old ladies cross the street or known for starting businesses in poverty stricken communities, no one would have a problem with “gangs.” In fact, they may be revered. This is why we feel the the problem is the glorification of the street culture that one was raised in. Do some young people join gangs for the thrill or popularity? Of course. But most had no choice because they were raised in an environment that had broken relationships, lack of economic resources, undiagnosed mental health issues, and low educational expectations. People commonly raised in this environment are susceptible to turning to criminal behavior in order to survive and feel more comfortable in groups that will validate their behavior. MAYS intervenes by developing the person as a whole – addressing some of their basic needs, introducing them to new ways of thinking, and developing new skills that will serve them better in the future."
+    ]
+  }
+
+  return (
+    <>
+      <PageBanner 
+        title="Gang Intervention"
+        img={gang}
+        slug="gang-intervention"
+      />
+      <PageContent content={content} />
+    </>
+  )
+
+}
+
+const EveningReportingPage = () => {
+  const content = {
+    img: {
+      main: mayskids
+    },
+    title: "Evening Reporting",
+    paragraphs: [
+      "Peak hour when youth are unattended and crime rates are up MAYS provides targeted programming specifically designed to promote and develop youth who struggle with communication and the decision making process. Tutoring services are available during this time."
+    ]
+  }
+
+  return (
+    <>
+      <PageBanner
+        title="Evening Reporting"
+        img={mayskids}
+        slug="evening-reporting"
+      />
+      <PageContent content={content} />
+    </>
+  )
+}
+
+const FamilySupportPage = () => {
+  const content = {
+    img: {
+      main: mayskidschristmas
+    },
+    title: "Family Support Services",
+    paragraphs: [
+      "Today’s family dynamics are complex to say the least. You have single parent households, Grandparents raising their grandchildren, one or both parents incarcerated, bills not being paid, and not enough food to eat. Oh yeah, by the way, don’t get into trouble and stay in school!Excuses are simply that: excuses. However, as we see it, today’s families are faced with many challenges. MAYS takes a holistic approach to family services by focusing on the things and services needed most. Our staff will work with the family to identify such needs and will partner with community organizations that have the capacity to render services that are in line with the mission of MAYS."
+    ]
+  }
+
+  return (
+    <>
+      <PageBanner
+        title="Family Support Services"
+        img={mayskidschristmas}
+        slug="family-support"
+      />
+      <PageContent content={content} />
+    </>
+  )
+}
+
+const HeroesPage = () => {
+  const customContent = (
+    <>
+      <p>Our 5 Pillars</p>
+      <ul>
+        <li>1. Vision</li>
+        <li>2. Overcoming Adversity</li>
+        <li>3. Passion</li>
+        <li>4. Teachability</li>
+        <li>5. Giving Back</li>
+      </ul>
+    </>
+  )
+
+  const content = {
+    img: {
+      main: heroteens,
+      sub: [pillars, trashclean]
+    },
+    title: "Out HEROES Program",
+    blockquoteHtml: customContent,
+    paragraphs: [
+      "Our experience has taught us that there is a hero inside all of us. MAYS’ Heroes Curriculum is based on 5 key elements that we have identified as the defining characteristics of a hero. Many of the youth and families that come through our doors are not equipped with the skills and tools necessary to face the challenges life throws their way. MAYS’ goal is to come alongside them and help provide a foundation for our clients to build on as the establish and foster these skills and work toward taking ownership of their personal development. We call these elements the 5 Pillars:"
+    ]
+  }
+
+  return (
+    <>
+      <PageBanner
+        title="Our HEROES Program"
+        img={heroteens}
+        slug="heroes"
       />
       <PageContent content={content} />
     </>
