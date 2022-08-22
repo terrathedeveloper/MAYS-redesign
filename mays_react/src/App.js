@@ -20,6 +20,7 @@ import Testimonials from './components/Testimonials';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
 import PageBanner from './components/PageBanner';
+import PageContent from './components/PageContent';
 
 // images for use 
 import tents from './assets/images/tents.jpg';
@@ -62,6 +63,7 @@ const AboutPage = () => {
         img={tents}
         slug="about"
       />
+      <PageContent />
 
     </>
   )
