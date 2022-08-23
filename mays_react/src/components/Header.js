@@ -58,22 +58,22 @@ const Header = () => {
                     <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                         <ul className="navbar-nav m-auto">
                              <li>
-                                <a className="active" href="index.html">Home</a>
+                                <a className="active" href="/">Home</a>
                             </li>
                             <li>
                                 <a href="#">About Us <i className="fa fa-angle-down"></i></a>
 
                                 <ul className="sub-menu">
-                                    <li><a href="about.html">About the Staff</a></li>
+                                    <li><a href="/about/staff">About the Staff</a></li>
                                     <li><a href="volunteer.html">Volunteer</a></li>
                                 </ul>
                             </li>
                             <li><a href="causes.html">Services <i className="fa fa-angle-down"></i></a>
                                 <ul className="sub-menu">
-                                    <li><a href="gangintervention.html">Gang Intervention</a></li>
-                                    <li><a href="eveningreporting.html">Evening Reporting</a></li>
-                                    <li><a href="familysupport.html">Family Support Services</a></li>
-                                    <li><a href="heroes.html">HEROES Program</a></li>
+                                    <li><a href="/services/gang-intervention">Gang Intervention</a></li>
+                                    <li><a href="/services/evening-reporting">Evening Reporting</a></li>
+                                    <li><a href="/services/family-support">Family Support Services</a></li>
+                                    <li><a href="/services/heroes">HEROES Program</a></li>
                                 </ul>
                             </li>
                             <li><a href="htw.html">Hood to the Woods</a></li>
